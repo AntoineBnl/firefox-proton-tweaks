@@ -1,0 +1,95 @@
+
+/* MAIN BACKGROUND COLOR */
+
+#nav-bar {
+	background-color: #3E3D45 !important;
+}
+
+#PersonalToolbar {
+	background-color: #3E3D45 !important;
+}
+
+.tab-background[selected="true"] {
+	background-color: #3E3D45 !important;
+	background-image: none !important;
+}
+
+
+/* TAB BAR */
+
+#TabsToolbar {
+	height: 36px !important;
+}
+
+.tabbrowser-tab .tab-content {
+	margin-bottom: 4px !important;
+}
+
+/*.tabbrowser-tab .tab-text {
+	font-size: 13px !important;
+	font-weight: bold !important;
+}*/
+
+.tabbrowser-tab:not([selected]) .tab-content {
+	color: #D6D6D6 !important;
+	/*background-color: #1B1B1B !important;*/
+}
+
+
+/* NAV BAR */
+
+#urlbar, .searchbar-textbox {
+	min-height: 30px !important;
+}
+
+#nav-bar .toolbarbutton-1 {
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+}
+
+#nav-bar toolbarspring {
+	min-width: 12px !important;
+	max-width: 12px !important;
+}
+
+#urlbar-background {
+	background-color: #25242B !important;
+}
+
+:root {
+	--toolbar-field-focus-border-color: color-mix(in srgb, var(--focus-outline-color) 100%, transparent) !important;
+}
+
+:root:-moz-lwtheme-brighttext {
+	--focus-outline-color: #63ADE5 !important;
+}
+
+:root[lwt-popup-brighttext] panel, toolbar[brighttext]:-moz-lwtheme {
+	--toolbarbutton-icon-fill-attention: var(--lwt-toolbarbutton-icon-fill-attention, #63ADE5) !important;
+}
+
+
+/* BOOKMARKS BAR */
+
+#PersonalToolbar {
+	margin-top: -4px !important;
+	padding-bottom: 1px !important;
+	/*border-bottom-width: 1px !important;
+	border-bottom-style: solid !important;
+	border-bottom-color: black !important;*/
+}
+
+#personal-bookmarks .bookmark-item > .toolbarbutton-text {
+	color: white !important;
+	padding-left: 2px !important;
+	padding-right: 2px !important;
+	padding-top: 1px !important;
+	padding-bottom: 2px !important;
+}
+
+#personal-bookmarks .bookmark-item > .toolbarbutton-icon {
+	margin-left: 4px !important;
+	margin-right: 4px !important;
+	margin-bottom: 1px !important;
+}
+
