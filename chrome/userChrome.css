@@ -57,11 +57,8 @@
 }
 
 :root {
-	--toolbar-field-focus-border-color: color-mix(in srgb, var(--focus-outline-color) 100%, transparent) !important;
-}
-
-:root:-moz-lwtheme-brighttext {
 	--focus-outline-color: #63ADE5 !important;
+	--toolbar-field-focus-border-color: color-mix(in srgb, var(--focus-outline-color) 100%, transparent) !important;
 }
 
 :root[lwt-popup-brighttext] panel, toolbar[brighttext]:-moz-lwtheme {
