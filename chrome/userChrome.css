@@ -17,12 +17,20 @@
 
 /* TAB BAR */
 
-#TabsToolbar {
+/*#TabsToolbar {
 	height: 36px !important;
+}*/
+
+.tabbrowser-tab {
+	margin-bottom: -10px !important;
 }
 
 .tabbrowser-tab .tab-content {
-	margin-bottom: 4px !important;
+	margin-bottom: 6px !important;
+}
+
+#tabs-newtab-button, #alltabs-button {
+    margin-bottom: 0px !important;
 }
 
 /*.tabbrowser-tab .tab-text {
