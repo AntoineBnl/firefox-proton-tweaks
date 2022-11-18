@@ -17,9 +17,9 @@
 
 /* TAB BAR */
 
-/*#TabsToolbar {
+#TabsToolbar {
 	height: 36px !important;
-}*/
+}
 
 .tabbrowser-tab {
 	margin-bottom: -10px !important;
