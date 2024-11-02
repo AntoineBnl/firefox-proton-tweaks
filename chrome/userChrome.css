@@ -9,7 +9,7 @@
 	background-color: #3E3D45 !important;
 }
 
-.tab-background[selected="true"] {
+.tab-background:is([selected], [multiselected]) {
 	background-color: #3E3D45 !important;
 	background-image: none !important;
 }
