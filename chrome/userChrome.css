@@ -17,6 +17,10 @@
 
 /* TAB BAR */
 
+:root {
+  --tab-block-margin: 0px !important; /* fix for v133 increased margin */
+}
+
 #TabsToolbar {
 	height: 36px !important;
 }
